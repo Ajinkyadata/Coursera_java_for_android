@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Coursera_java_for_android-m5-assignment-birthday-probability-skeleton.iml" filepath="$PROJECT_DIR$/Coursera_java_for_android-m5-assignment-birthday-probability-skeleton.iml" group="m5-assignment-birthday-probability-skeleton" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/m5-assignment-birthday-probability-skeleton.iml" filepath="$PROJECT_DIR$/m5-assignment-birthday-probability-skeleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/m5-assignment-birthday-probability-skeleton-app.iml" filepath="$PROJECT_DIR$/app/m5-assignment-birthday-probability-skeleton-app.iml" group="m5-assignment-birthday-probability-skeleton/app" />
     </modules>
   </component>
 </project>

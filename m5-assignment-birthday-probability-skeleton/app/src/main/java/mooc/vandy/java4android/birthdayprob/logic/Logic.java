@@ -1,6 +1,7 @@
 package mooc.vandy.java4android.birthdayprob.logic;
 
 import java.util.Random;
+import java.util.*; 
 
 import mooc.vandy.java4android.birthdayprob.ui.OutputInterface;
 
@@ -74,9 +75,44 @@ public class Logic
      * <p>
      * We provide you this method that way we can test it with unit testing.
      */
-    public double calculate(int size, int count) {
+    public double calculate(int size, int sim) {
         // TODO -- add your code here
+        int ans=0;
+	    
+	    for(int i=0; i<sim; i++)
+	    {
+	        int flag=0;
+	        Set<Integer> set= new HashSet<Integer>();
+	            for(int j=0; j<size; j++)
+	            {
+	                
+	                int x=genBday();
+	                
+	                if(set.contains(x))
+	                {
+	                    flag=1;
+	                    break;
+	                }
+	                else
+	                {
+	                    set.add(x);
+	                }
+	            }
+	            
+	             if(flag==1)
+	                {
+	                    ans++;
+	                    flag=0;
+	                }
+	    }
+	    
+	    return (ans*1.0)/sim*100;
 
     }
     // TODO - add your code here
+    public static int genBday()
+	{
+	    Random rnd= new Random();
+	    return rnd.nextInt(365);
+	}
 }
