@@ -77,16 +77,18 @@ public class Logic
      */
     public double calculate(int size, int sim) {
         // TODO -- add your code here
+
         int ans=0;
 	    
 	    for(int i=0; i<sim; i++)
 	    {
+            Random rnd= new Random(i+1);
 	        int flag=0;
 	        Set<Integer> set= new HashSet<Integer>();
 	            for(int j=0; j<size; j++)
 	            {
-	                
-	                int x=genBday();
+
+	                int x=genBday(rnd);
 	                
 	                if(set.contains(x))
 	                {
@@ -110,9 +112,9 @@ public class Logic
 
     }
     // TODO - add your code here
-    public static int genBday()
+    public static int genBday(Random rnd)
 	{
-	    Random rnd= new Random();
+
 	    return rnd.nextInt(365);
 	}
 }
