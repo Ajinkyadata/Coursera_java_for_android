@@ -22,6 +22,11 @@ public class FillTheCorral {
         mOut = out;
     }
 
+    public void setCorralGates(Gate[] gate, Random selectDirection)
+    {
+        
+    }
+
     // TODO -- Fill your code in here
 
 }
