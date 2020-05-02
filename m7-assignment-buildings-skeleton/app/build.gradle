@@ -12,6 +12,14 @@ android {
         versionName "1.0"
         multiDexEnabled true
     }
+    allprojects {
+        repositories {
+            jcenter()
+            maven {
+                url "https://maven.google.com"
+            }
+        }
+    }
     buildTypes {
         release {
             minifyEnabled false
