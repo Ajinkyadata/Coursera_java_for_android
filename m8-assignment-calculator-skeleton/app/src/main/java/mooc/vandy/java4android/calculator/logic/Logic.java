@@ -57,12 +57,5 @@ public class Logic implements LogicInterface {
             Divide res=new Divide(argumentOne, argumentTwo);
             mOut.print(res.toString());
         }
-
-
-
-
-
-
-
     }
 }

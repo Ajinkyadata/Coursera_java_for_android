@@ -8,9 +8,9 @@ public class Multiply {
     private int one;
     private int two;
 
-    private String res;
+    private String res; //this variable will store the result in string format
 
-    public Multiply(int x, int y)
+    public Multiply(int x, int y) //using constructor to initialise operands and result
     {
         this.one=x;
         this.two=y;

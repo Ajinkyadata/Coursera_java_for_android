@@ -8,9 +8,9 @@ public class Subtract {
     private int one;
     private int two;
 
-    private String res;
+    private String res; //this variable will store the result in string format
 
-    public Subtract(int x, int y)
+    public Subtract(int x, int y) //using constructor to initialise operands and result
     {
         this.one=x;
         this.two=y;
