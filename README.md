@@ -10,3 +10,18 @@
 
 ##### Assignment m5
 [Solutions](https://github.com/Ajinkyadata/Coursera_java_for_android/tree/master/m5-assignment-birthday-probability-skeleton/app/src/main/java/mooc/vandy/java4android/birthdayprob/logic)
+
+##### Assignment m6 -a
+[Solutions](https://github.com/Ajinkyadata/Coursera_java_for_android/tree/master/m6-assignment-gate-a-skeleton/app/src/main/java/mooc/vandy/java4android/gate/logic)
+
+##### Assignment m6 -b
+[Solutions](https://github.com/Ajinkyadata/Coursera_java_for_android/tree/master/m6-assignment-gate-b-skeleton/app/src/main/java/mooc/vandy/java4android/gate/logic)
+
+##### Assignment m7
+[Solutions](https://github.com/Ajinkyadata/Coursera_java_for_android/tree/master/m7-assignment-buildings-skeleton/app/src/main/java/mooc/vandy/java4android/buildings/logic)
+
+##### Assignment m8
+[Solutions](https://github.com/Ajinkyadata/Coursera_java_for_android/tree/master/m8-assignment-calculator-skeleton/app/src/main/java/mooc/vandy/java4android/calculator/logic)
+
+....END
+
